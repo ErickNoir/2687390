@@ -15,7 +15,7 @@ public class Reto5 {
         int nameLength= name.length();
         int lastNameLength= lastName.length();
 
-        String sSubName = name.substring(0,3);
+        String sSubName = name.substring(0,2);
 
         System.out.println("Su  nombre contiene: " + nameLength + " caracteres. Mientras que su apellido contiene: " + lastNameLength + " caracteres.");
 

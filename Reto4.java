@@ -14,7 +14,7 @@ public class Reto4 {
                 System.out.println("Empate. El sistema eligió el mismo rol.");
             }
 
-        //Lose
+        //Player Lose
             
             else if (rolSistem==3 && rolPlayer==2){
                 System.out.println("Perdió. El sistema eligió 'Tijeras'.");
@@ -28,7 +28,7 @@ public class Reto4 {
                 System.out.println("Perdió. El sistema eligió 'Piedra'.");
             }
 
-        //Win
+        //Player Win
 
             else if (rolSistem==1 && rolPlayer==2){
                 System.out.println("Ganó. El sistema eligió 'Piedra'.");
