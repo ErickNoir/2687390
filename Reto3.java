@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Dare3 {
+public class Reto3 {
     public static void main(String[] args) throws Exception {
         Scanner read = new Scanner(System.in);
             int side, cSide; 
