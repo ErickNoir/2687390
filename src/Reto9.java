@@ -21,14 +21,9 @@ public class Reto9 {
             round = round +1;
         }
 
-        else if(playerRol>sistmRol){
+        else if(playerRol==sistmRol){
             defaultMoney = (roundMoney * 2) + defaultMoney;
             System.out.println("Ganó. Se duplicará su presupuesto apostado en esta ronda y será sumado al apostado en todo el juego. Su presupuesto ahora es de: $" + defaultMoney);
-            round = round +1;
-        }
-        
-        else if(playerRol==sistmRol){
-            System.out.println("Empate. Puede continuar con la siguiente ronda.");
             round = round +1;
         }
 
