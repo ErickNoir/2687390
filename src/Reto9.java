@@ -18,7 +18,6 @@ public class Reto9 {
 
         if(roundMoney>defaultMoney){
             System.out.println("Fondos insuficientes. Intente nuevamente e ingrese un valor menor al total apostado en el juego.");
-            round = round +1;
         }
 
         else if(playerRol==sistmRol){

@@ -19,7 +19,10 @@ public class Reto5 {
         String allName = name + lastName;
 
         System.out.println("Su  nombre completo es: " + allName);
+<<<<<<< HEAD
 
+=======
+>>>>>>> c8778460c1fe1b3c3bbfa4569ef447de6cac950c
 
         System.out.println("Su  nombre contiene: " + nameLength + " caracteres. Mientras que su apellido contiene: " + lastNameLength + " caracteres.");
 
